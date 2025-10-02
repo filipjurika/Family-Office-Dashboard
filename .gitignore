@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data (never push real data)
+data/input/
+data/processed/
+data/warehouse/*.db
+reports/
+
+# Excel – only keep the template
+excel/*User*.xlsx
+excel/*Filled*.xlsx
+
+# Notebooks
+.ipynb_checkpoints/
